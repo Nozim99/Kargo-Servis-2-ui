@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #2DCCFF; /* Asosiy rang / Primary color */
+    --success-color: #56F000; /* Muvaffaqiyat rangi / Success color */
+    --warning-color: #FFB302; /* Ogohlantirish rangi / Warning color */
+    --neutral-color: #A4ABB6; /* Neytral rang / Neutral color */
+    --light-white: #F3F4F6;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/*button {*/
+/*    background-color: var(--success-color);*/
+/*    color: white;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: var(--warning-color);*/
+/*}*/
+
+
+/*.ant-select:not(.ant-select-customize-input) .ant-select-selector {*/
+/*    background-color: red;*/
+/*}*/
+
+.primary_select.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: var(--primary-color);
+}
+
+.success_select.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: var(--success-color);
+}
+
+.warning_select.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: var(--warning-color);
+}
+
+.neutral_select.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: var(--neutral-color);
+}
+
+.ant-table-content {
+    overflow-x: auto;
+    min-height: 300px;
+}
+
+.resize_table .ant-table {
+    min-height: 400px;
+}
+
+.lng_select .ant-select-selector {
+    background-color: #1E2939 !important;
+    border: none !important;
+    color: white;
+}
+
+.lng_select .ant-select-arrow {
+    color: white
+}
